@@ -12,11 +12,19 @@ module.exports = {
           status: 1,
           message: "ok",
           result: {
-            isError: `${result.status}`,
+            isError: `${!result.status}`,
+            errDescription: "",
           },
         });
       } else if (action === "gettxreceiptstatus") {
         const result = await web3.eth.getTransactionReceipt(txhash);
+        return res.status(200).json({
+          status: 1,
+          message: "ok",
+          result: {
+            status: `${result.status}`,
+          },
+        });
       } else {
         return res.status(400).send("improper action request");
       }

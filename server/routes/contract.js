@@ -3,7 +3,10 @@ var router = express.Router();
 
 const { getContract } = require("../controller/contractController");
 
-/* GET users listing. */
+/* 
+    GET contract abi or source code
+    /contract?action={getabi||getsourcecode}&address={address}
+*/
 router.get("/", getContract);
 
 module.exports = router;
