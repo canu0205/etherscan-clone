@@ -2,9 +2,9 @@
 
 ## Screenshots
 
-![main] (https://github.com/canu0205/etherscan-clone/blob/main/images/MainScreenshot.png)
-![account_contract] (https://github.com/canu0205/etherscan-clone/blob/main/images/AccountContract.png)
-![account_events] (https://github.com/canu0205/etherscan-clone/blob/main/images/AccountEvents.png)
+![main](https://github.com/canu0205/etherscan-clone/blob/main/images/MainScreenshot.png)
+![account_contract](https://github.com/canu0205/etherscan-clone/blob/main/images/AccountContract.png)
+![account_events](https://github.com/canu0205/etherscan-clone/blob/main/images/AccountEvents.png)
 
 ## Quickstart
 
